@@ -12,7 +12,7 @@ pipeline {
 
             steps {
 
-                git 'https://github.com/dagar-Sahil03/Jenkins-CI-CD-Project.git'
+                git branch: 'main', url: 'https://github.com/dagar-Sahil03/Jenkins-CI-CD-Project.git'
 
             }
         }
